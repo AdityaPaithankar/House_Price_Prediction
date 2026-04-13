@@ -41,14 +41,14 @@ footer = """
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #111827;
     text-align: center;
     padding: 10px;
 }
 </style>
 
 <div class="footer">
-    This is a fixed footer 🚀
+    Copyright by Aditya Paithankar
 </div>
 """
 
