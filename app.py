@@ -34,5 +34,9 @@ if st.button("Predict Price 💰"):
         st.info("💡 High income area → price tends to increase")
     if rooms > 6:
         st.info("💡 More rooms → higher property value")
+
+# Bottom content
+st.markdown("---")
+st.write("This is at the bottom")
     
     
