@@ -35,8 +35,22 @@ if st.button("Predict Price 💰"):
     if rooms > 6:
         st.info("💡 More rooms → higher property value")
 
-# Bottom content
-st.markdown("---")
-st.write("This is at the bottom")
-    
+footer = """
+<style>
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+</style>
+
+<div class="footer">
+    This is a fixed footer 🚀
+</div>
+"""
+
+st.markdown(footer, unsafe_allow_html=True)
     
